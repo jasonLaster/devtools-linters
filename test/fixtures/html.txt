@@ -1,0 +1,5 @@
+test/fixtures/html.html
+  1:21-1:23  warning  Expected `1` space between sentences, not `2`       retext-sentence-spacing  retext-sentence-spacing
+  3:10-3:15  warning  `typoo` is misspelt; did you mean `typo`, `typos`?  retext-spell             retext-spell
+
+⚠ 2 warnings

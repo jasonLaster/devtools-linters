@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "dependencies": {
     "dictionary-en-us": "^2.0.0",
@@ -36,5 +36,11 @@
     "unified": "^6.1.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "execa": "^0.8.0",
+    "rehype-cli": "^4.0.0",
+    "remark-cli": "^4.0.0",
+    "tape": "^4.8.0"
+  }
 }
