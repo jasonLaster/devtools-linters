@@ -36,7 +36,6 @@ Autocomplete
 autocomplete 
 autoconf213
 autofix
-avaliable
 Aviv
 backend
 backport
@@ -68,7 +67,6 @@ callstack
 CamelCased
 camo 
 changelog
-childen
 ChromeScopes
 clearSymbols
 CLI
@@ -106,7 +104,6 @@ CSS
 ctrl
 debuggable
 debuggee
-debuggy
 declarators
 defaultProps
 deleteExpression
@@ -124,8 +121,6 @@ devtools-source-map
 Diéssica
 dir
 disableBreakpoint
-discoverable.
-dispell
 dojo
 dom
 Draggable
@@ -133,10 +128,6 @@ Dropdown
 dropdown
 dt 
 EditorSearch
-embarressing
-embarressing
-embarressing
-enableBreakpoint
 enableBreakpoint
 es5
 ES6
@@ -144,7 +135,6 @@ es6
 eslint
 EventListeners
 expections
-expessions
 ExtJS
 F1
 F2
@@ -152,7 +142,6 @@ F3
 falsey
 fetchEventListeners
 fetchingListeners
-fframes
 FileSearch
 firefox
 flowtype
@@ -193,7 +182,6 @@ hostname
 hostnames
 html
 HTML
-Html
 HTTP
 http
 HTTPS
@@ -201,7 +189,6 @@ https
 iframe
 infering
 integrations
-intermittents
 involvesthe
 iOS 
 ios-webkit-debug-proxy
@@ -221,14 +208,11 @@ keyshortcut
 keyshortcuts
 L10N
 l10n
-labelled
 layouunlink
 Lerna
 lerna
 Libarary
-libary
 libs
-lifecycle
 linux
 Linux
 loadedObjects
@@ -273,7 +257,6 @@ npm
 NUM_FRAMES_SHOWN
 nvm
 ObjectInspector
-occassionaly
 Ofcourse
 ofcourse
 onChange
@@ -300,7 +283,6 @@ presentational
 prettyifyed
 PreviewFunction
 PrimaryPanes
-progres
 ProjectSearch
 proptypes
 PRs
@@ -316,7 +298,6 @@ racey
 react-dom
 readibility
 readme
-realy
 rebase
 rebased
 recordit
@@ -359,7 +340,6 @@ selectTab
 setActiveSearch
 setBreakpointCondition
 setState
-sexualized
 shippable
 shoutout
 showSource
@@ -375,7 +355,6 @@ SourceTabs
 SourceText
 sourcetext
 sourcetree
-soure
 specificclient
 specificclient
 specificclient
@@ -429,7 +408,6 @@ undefineds
 unecessary
 unicode
 unix-flavor
-unsused
 updateEventBreakpoints
 updateExpression
 updateSearchResults
