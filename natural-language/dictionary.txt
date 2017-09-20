@@ -405,7 +405,6 @@ ui
 unblackbox
 undef
 undefineds
-unecessary
 unicode
 unix-flavor
 updateEventBreakpoints
