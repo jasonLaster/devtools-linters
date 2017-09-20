@@ -11,14 +11,14 @@ exports.plugins = [
   require("retext-english"),
   require("retext-syntax-urls"),
   require("retext-syntax-mentions"),
-  require("retext-emoji")
-  // [
-  //   require('retext-spell'),
-  //   {
-  //     dictionary: require('dictionary-en-us'),
-  //     personal: personal
-  //   }
-  // ],
+  require("retext-emoji"),
+  [
+    require('retext-spell'),
+    {
+      dictionary: require('dictionary-en-us'),
+      personal: personal
+    }
+  ]
   // require("retext-sentence-spacing"),
   // [require("retext-quotes"), { preferred: "straight" }],
   // require("retext-repeated-words")
