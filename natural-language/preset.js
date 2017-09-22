@@ -18,8 +18,13 @@ exports.plugins = [
       dictionary: require('dictionary-en-us'),
       personal: personal
     }
-  ]
-  // require("retext-sentence-spacing"),
-  // [require("retext-quotes"), { preferred: "straight" }],
-  // require("retext-repeated-words")
+  ],
+  require("retext-sentence-spacing"),
+  [
+    require("retext-quotes"), 
+      { 
+        preferred: "straight" 
+      }
+  ],
+  require("retext-repeated-words")
 ];
