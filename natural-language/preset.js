@@ -7,16 +7,23 @@ var personal = fs
   .readFileSync(path.join(__dirname, "dictionary.txt"), "utf8")
   .replace(/#.+/gm, "");
 
+var projectDictionary = fs
+  .readFileSync(
+    path.join(__dirname, "../../../assets/", "dictionary.txt"),
+    "utf8"
+  )
+  .replace(/#.+/gm, "");
+
 exports.plugins = [
   require("retext-english"),
   require("retext-syntax-urls"),
   require("retext-syntax-mentions"),
   require("retext-emoji"),
   [
-    require('retext-spell'),
+    require("retext-spell"),
     {
-      dictionary: require('dictionary-en-us'),
-      personal: personal
+      dictionary: require("dictionary-en-us"),
+      personal: personal.concat(...projectDictionary)
     }
   ]
   // require("retext-sentence-spacing"),
