@@ -25,8 +25,8 @@ exports.plugins = [
       dictionary: require("dictionary-en-us"),
       personal: personal.concat(...projectDictionary)
     }
-  ]
+  ],
   // require("retext-sentence-spacing"),
   // [require("retext-quotes"), { preferred: "straight" }],
-  // require("retext-repeated-words")
+  require("retext-repeated-words")
 ];
