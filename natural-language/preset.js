@@ -19,13 +19,14 @@ exports.plugins = [
   require("retext-syntax-urls"),
   require("retext-syntax-mentions"),
   require("retext-emoji"),
+  //require("retext-equality"),
   [
     require("retext-spell"),
     {
       dictionary: require("dictionary-en-us"),
       personal: personal.concat(...projectDictionary)
     }
-  ]
+  ],
   // require("retext-sentence-spacing"),
   // [require("retext-quotes"), { preferred: "straight" }],
   // require("retext-repeated-words")
