@@ -335,6 +335,7 @@ selectedSource
 selectedTab
 selectFrame
 selectLocation
+selectSource
 selectSourceURL
 selectTab
 setActiveSearch
