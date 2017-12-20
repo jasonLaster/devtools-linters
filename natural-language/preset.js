@@ -19,6 +19,7 @@ exports.plugins = [
   require("retext-syntax-urls"),
   require("retext-syntax-mentions"),
   require("retext-emoji"),
+  require("retext-equality"),
   [
     require("retext-spell"),
     {
